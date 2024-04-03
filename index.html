@@ -6,30 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mulher e Sociedade</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        /* Estilos personalizados podem ser adicionados aqui */
-    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Mulher e Sociedade</a>
+                <a class="navbar-brand" href="index.html">Mulher e Sociedade</a>
+                <span class="vertical-line"></span> <!-- Barra vertical -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#sobre">Mulher na Sociedade</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#mulheres-destaque">Mulheres em Destaque</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contato">Integrantes</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Tópicos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#sobre">Mulher na Sociedade</a></li>
+                                <li><a class="dropdown-item" href="#mulheres-destaque">Mulheres em Destaque</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#contato">Integrantes</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -93,116 +97,48 @@
                         <div class="carousel-item active">
                             <div class="row">
                                 <div class="col-lg-4 mb-4">
-                                    <div class="card">
-                                        <img src="mulher1.jpg" class="card-img-top" alt="...">
+                                    <div class="card h-100">
+                                        <img src="mulher1.jpg" class="card-img-top" style="height: 200px;" alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title">Nome da Mulher Destaque 1</h5>
-                                            <p class="card-text">Marie Curie (1867-1934) foi uma física e química polonesa-francesa que se tornou a primeira mulher a receber um Prêmio Nobel, em 1903, por suas descobertas sobre o radio. Ela foi a primeira mulher a ser agraciada com o prêmio e a primeira pessoa a recebê-lo duas vezes, em 1911, por sua pesquisa sobre a radioatividade.</p>
+                                            <p class="card-text">Marie Curie (1867-1934) foi uma física e química
+                                                polonesa-francesa que se tornou a primeira mulher a receber um Prêmio
+                                                Nobel, em 1903, por suas descobertas sobre o radio. Ela foi a primeira
+                                                mulher a ser agraciada com o prêmio e a primeira pessoa a recebê-lo duas
+                                                vezes, em 1911, por sua pesquisa sobre a radioatividade.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 mb-4">
-                                    <div class="card">
-                                        <img src="mulher2.jpg" class="card-img-top" alt="...">
+                                    <div class="card h-100">
+                                        <img src="mulher2.jpg" class="card-img-top" style="height: 200px;" alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title">Rose Parks</h5>
-                                            <p class="card-text">Rosa Parks (1913-2005) foi uma ativista dos direitos civis americana que ficou famosa por sua resistência ao sistema de segregação racial nos ônibus de Montgomery, Alabama. Sua decisão de não ceder o seu assento para um homem branco em 1 de dezembro de 1955 foi o início de um boicote aos ônibus de Montgomery, que pôs fim à segregação racial nos ônibus em todo o país.</p>
+                                            <p class="card-text">Rosa Parks (1913-2005) foi uma ativista dos direitos
+                                                civis americana que ficou famosa por sua resistência ao sistema de
+                                                segregação racial nos ônibus de Montgomery, Alabama. Sua decisão de não
+                                                ceder o seu assento para um homem branco em 1 de dezembro de 1955 foi o
+                                                início de um boicote aos ônibus de Montgomery, que pôs fim à segregação
+                                                racial nos ônibus em todo o país.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 mb-4">
-                                    <div class="card">
-                                        <img src="mulher3.jpg" class="card-img-top" alt="...">
+                                    <div class="card h-100">
+                                        <img src="mulher3.jpg" class="card-img-top" style="height: 200px;" alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title">Malala Yousafzai</h5>
-                                            <p class="card-text">Malala Yousafzai (1997) é uma ativista paquistanesa que luta pelo direito à educação de crianças e jovens. Ela tornou-se conhecida após o ataque do Talibã na escola que frequentava, no qual recebeu um tiro no rosto, ficando entre a vida e a morte. Malala é a pessoa mais jovem a receber o Prêmio Nobel da Paz.</p>
+                                            <p class="card-text">Malala Yousafzai (1997) é uma ativista paquistanesa que
+                                                luta pelo direito à educação de crianças e jovens. Ela tornou-se
+                                                conhecida após o ataque do Talibã na escola que frequentava, no qual
+                                                recebeu um tiro no rosto, ficando entre a vida e a morte. Malala é a
+                                                pessoa mais jovem a receber o Prêmio Nobel da Paz.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 mb-4">
-                                    <div class="card">
-                                        <img src="mulher3.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Frida Kahlo</h5>
-                                            <p class="card-text">Frida Kahlo (1907-1954) foi uma pintora mexicana do século XX. Ela é considerada uma artista que fez parte do Surrealismo, embora a própria Frida negasse essa classificação, pois afirmava que não pintava sonhos, mas sua própria realidade. Suas obras são conhecidas por abordar temas pouco ortodoxos e pela estética muito próxima do Surrealismo.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 mb-4">
-                                    <div class="card">
-                                        <img src="mulher3.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Coco Chanel</h5>
-                                            <p class="card-text">Coco Chanel (1883-1971) foi uma estilista e empresária francesa. Ela é creditada por ter transformado o estilo de vestir das mulheres, introduzindo o estilo "Chanel" que combinava conforto e elegância</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 mb-4">
-                                    <div class="card">
-                                        <img src="mulher3.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Amelia Earhart</h5>
-                                            <p class="card-text">Amelia Earhart (1897-1937) foi uma aviadora americana. Ela tornou-se a primeira mulher a voar sozinha ao redor do mundo em 1937, mas desapareceu durante um voo de reconhecimento em 1937.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 mb-4">
-                                    <div class="card">
-                                        <img src="mulher3.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Jane Austen</h5>
-                                            <p class="card-text">Jane Austen (1775-1817) foi uma escritora britânica. Suas obras, como "Orgulho e Preconceito" e "Mansfield Park", são consideradas clássicos da literatura inglesa e são conhecidos por sua sátira social e análise da sociedade da época.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 mb-4">
-                                    <div class="card">
-                                        <img src="mulher3.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Wangari Maathai</h5>
-                                            <p class="card-text">Wangari Maathai (1940-2011) foi uma ambientalista queniana. Ela fundou o Movimento Verde da África, que se concentrou na plantação de árvores e na luta contra a desflorestação e a erosão do solo.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 mb-4">
-                                    <div class="card">
-                                        <img src="mulher3.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Indira Gandhi</h5>
-                                            <p class="card-text">Indira Gandhi (1917-1984) foi uma política indiana. Ela foi a primeira mulher a ser primeira-ministra da Índia, servindo de 1966 a 1977 e de 1980 a 1984</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 mb-4">
-                                    <div class="card">
-                                        <img src="mulher3.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Ada Lovelace</h5>
-                                            <p class="card-text">Ada Lovelace (1815-1852) foi uma matemática e pioneira da computação britânica. Ela é considerada a primeira programadora de computador, já que escreveu o primeiro programa para a máquina analítica de Charles Babbage</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 mb-4">
-                                    <div class="card">
-                                        <img src="mulher3.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Simone de Beauvoir</h5>
-                                            <p class="card-text">Simone de Beauvoir foi uma filósofa e escritora francesa que se destacou por sua obra "O Segundo Sexo", onde critica a opressão da sociedade em relação às mulheres. Ela foi uma das pioneiras do feminismo moderno e uma das primeiras a abordar a questão do gênero.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 mb-4">
-                                    <div class="card">
-                                        <img src="mulher3.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Valentina Tereshkova</h5>
-                                            <p class="card-text">Valentina Tereshkova foi a primeira mulher a voar ao espaço, fazendo parte da missão soviética Voskhod 1 em 1963. Ela continuou a trabalhar na área espacial e tornou-se uma importante figura na história da exploração espacial.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                <!-- Adicione os outros itens do carrossel aqui -->
                             </div>
                         </div>
-                        <!-- Adicione mais itens de carrossel conforme necessário -->
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
                         data-bs-slide="prev">

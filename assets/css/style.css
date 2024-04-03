@@ -3,3 +3,14 @@
     height: auto;
     max-height: 600px;
 }
+
+/* Estilos personalizados */
+.vertical-line {
+    border-left: 1px solid #dee2e6;
+    height: 40px;
+    /* Altura da barra */
+    margin-left: 20px;
+    /* Espaço entre os textos */
+    margin-right: 20px;
+    /* Espaço entre os textos */
+}

@@ -80,3 +80,37 @@ checkAnswer("d) Lei Maria da Penha");
 // Supondo que o usuário respondeu à segunda pergunta corretamente
 checkAnswer("c) Brasil");
 // Continuar com outras respostas...
+
+
+
+
+// Controlar o carrossel
+var carousel = document.querySelector('.carousel');
+var items = carousel.querySelectorAll('.carousel-item');
+
+function carouselItemVisible(item) {
+    var rect = item.getBoundingClientRect();
+    return (
+        rect.left >= 0 &&
+        rect.right <= window.innerWidth
+    );
+}
+
+function updateCarousel() {
+    var visibleItems = [];
+    items.forEach(function (item) {
+        if (carouselItemVisible(item)) {
+            visibleItems.push(item);
+        }
+    });
+    visibleItems.forEach(function (item, index) {
+        if (index % 3 === 0) {
+            item.classList.add('active');
+        } else {
+            item.classList.remove('active');
+        }
+    });
+}
+
+updateCarousel();
+window.addEventListener('resize', updateCarousel);
