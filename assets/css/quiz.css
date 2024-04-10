@@ -11,12 +11,12 @@
     font-family: Poppins, Helvetica, sans-serif;    
     margin: 0;
     padding: 0;
-    color: #343a40;
+    color: #b8daff;
 }
 
 ::selection {
-    color: #fff;
-    background: #000;
+    color: yellow;
+    background: #0a0a0a;
 }
 
 /* Home - index.html */
@@ -83,7 +83,7 @@
 
 .info_box {
     width: 610px;
-    background: #fff;
+    background: #0a0a0a;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -94,7 +94,7 @@
 .info_box .info-title {
     height: 60px;
     width: 100%;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid yellow;
     display: flex;
     align-items: center;
     padding: 0 30px;
@@ -114,7 +114,7 @@
 
 .info_box .info-list .info span {
     font-weight: 600;
-    color: #0a0f14;
+    color: yellow;
 }
 
 .info_box .buttons {
@@ -123,7 +123,7 @@
     align-items: center;
     justify-content: flex-end;
     padding: 0 30px;
-    border-top: 1px solid lightgrey;
+    border-top: 1px solid yellow;
 }
 
 .info_box .buttons button {
@@ -136,36 +136,36 @@
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #007bff;
+    border: 1px solid red;
     transition: all 0.3s ease;
 }
 
 .buttons button.restart {
-    color: #fff;
-    background: #007bff;
+    color: yellow;
+    background: #0a0a0a;
 }
 
 .buttons button.restart:hover {
-    background: #0263ca;
+    background: red;
 }
 
 .buttons button.salvar {
-    color: #fff;
-    background: #007bff;
+    color: yellow;
+    background: #0a0a0a;
 }
 
 .buttons button.salvar:hover {
-    background: #0263ca;
+    background: red;
 }
 
 .buttons button.quit {
-    color: #007bff;
-    background: #fff;
+    color: yellow;
+    background: #0a0a0a;
 }
 
 .buttons button.quit:hover {
-    color: #fff;
-    background: #040505;
+    color: yellow;
+    background: red;
 }
 
 /* END - Home - index.html */
@@ -314,7 +314,7 @@ section .option_list .option .icon {
 }
 
 .option_list .option .icon.cross {
-    color: #a42834;
+    color: #ff0019;
     background: #f8d7da;
     border-color: #a42834;
 }
@@ -373,10 +373,10 @@ footer button {
     cursor: pointer;
     border: none;
     outline: none;
-    color: #fff;
+    color: #fbff00;
     border-radius: 5px;
-    background: #007bff;
-    border: 1px solid #007bff;
+    background: #000000;
+    border: 1px solid #000000;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -385,7 +385,7 @@ footer button {
 }
 
 footer button:hover {
-    background: #0263ca;
+    background: green;
 }
 
 footer button.show {
