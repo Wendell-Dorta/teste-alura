@@ -2,21 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 :root {
-    background-color: #111213;
+    background-color: #007bff;
     font-size: 62.5%;
 }
 
 * {
     box-sizing: border-box;
-    font-family: Poppins, Helvetica, sans-serif;    
+    font-family: Poppins, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    color: #343a40;
+    color: #333;
 }
 
 ::selection {
     color: #fff;
-    background: #000;
+    background: #007bff;
 }
 
 /* Home - index.html */
@@ -55,28 +55,28 @@
 .start_btn button {
     font-size: 20px;
     font-weight: 500;
-    color: yellow;
+    color: #007bff;
     width: 250px;
     height: 75px;
     padding: 15px 20px;
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #0a0a0a;
+    background: #fff;
     cursor: pointer;
 }
 
 .start_btn #button_score {
     font-size: 20px;
     font-weight: 500;
-    color: yellow;
+    color: #007bff;
     width: 250px;
     height: 75px;
     padding: 15px 20px;
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #0a0a0a;
+    background: #fff;
     cursor: pointer;
     text-decoration: none;
 }
@@ -94,7 +94,7 @@
 .info_box .info-title {
     height: 60px;
     width: 100%;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid lightgrey;
     display: flex;
     align-items: center;
     padding: 0 30px;
@@ -114,7 +114,7 @@
 
 .info_box .info-list .info span {
     font-weight: 600;
-    color: #0a0f14;
+    color: #007bff;
 }
 
 .info_box .buttons {
@@ -165,7 +165,7 @@
 
 .buttons button.quit:hover {
     color: #fff;
-    background: #040505;
+    background: #007bff;
 }
 
 /* END - Home - index.html */
@@ -237,7 +237,7 @@
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #801010;
+    background: #007bff;
 }
 
 section {
@@ -256,7 +256,7 @@ section .option_list {
 }
 
 section .option_list .option {
-    background: rgb(5, 5, 5);
+    background: aliceblue;
     border: 1px solid #84c5fe;
     border-radius: 5px;
     padding: 8px 15px;
@@ -274,8 +274,8 @@ section .option_list .option:last-child {
 }
 
 section .option_list .option:hover {
-    color: #530f0f;
-    background: #151a1f;
+    color: #004085;
+    background: #cce5ff;
     border: 1px solid #b8daff;
 }
 
