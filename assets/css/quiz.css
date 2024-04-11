@@ -33,7 +33,6 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .start_btn {
     justify-content: center;
     align-items: center;
@@ -65,6 +64,9 @@
     background: #0a0a0a;
     cursor: pointer;
 }
+.start_btn button:hover {
+    background: rgb(53, 8, 255);
+}
 
 .start_btn #button_score {
     font-size: 20px;
@@ -80,7 +82,9 @@
     cursor: pointer;
     text-decoration: none;
 }
-
+.start_btn #button_score:hover {
+    background: rgb(53, 8, 255);
+}
 .info_box {
     width: 610px;
     background: #0a0a0a;

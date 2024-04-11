@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Adicionando plano de fundo preto à tela inteira */
+}
+
 .container {
     width: 100vw;
     max-width: 40rem;
@@ -67,8 +73,8 @@ h1 {
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #0a0a0a;
-    border: 1px solid #0a0a0a;
+    background: #313131;
+    border: 1px solid #f80000;
     cursor: pointer;
     text-decoration: none;
 }
