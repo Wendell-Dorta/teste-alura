@@ -11,7 +11,7 @@
     font-family: Poppins, Helvetica, sans-serif;    
     margin: 0;
     padding: 0;
-    color: #b8daff;
+    color: rgb(192, 192, 0);
 }
 
 ::selection {
@@ -173,7 +173,7 @@
 /* Quiz Box */
 .quiz_box {
     width: 610px;
-    background: #fff;
+    background: #0a0a0a;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -186,12 +186,12 @@
     z-index: 2;
     height: 70px;
     padding: 0 30px;
-    background: #fff;
+    background: #0a0a0a;
     border-radius: 5px 5px 0 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 5px 1px #1b1b1b;
 }
 
 .quiz_box header .title {
@@ -200,9 +200,9 @@
 }
 
 .quiz_box header .timer {
-    color: #004085;
-    background: #cce5ff;
-    border: 1px solid #b8daff;
+    color: yellow;
+    background: #720000;
+    border: 1px solid #0a0a0a;
     height: 45px;
     padding: 0 8px;
     border-radius: 5px;
@@ -227,8 +227,8 @@
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
-    background: #343a40;
-    border: 1px solid #343a40;
+    background: #0a0a0a;
+    border: 1px solid #0a0a0a;
     user-select: none;
 }
 
@@ -237,12 +237,12 @@
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #801010;
+    background: #c00000;
 }
 
 section {
     padding: 25px 30px 20px 30px;
-    background: #fff;
+    background: #0a0a0a;
 }
 
 section .que_text {
@@ -256,8 +256,8 @@ section .option_list {
 }
 
 section .option_list .option {
-    background: rgb(5, 5, 5);
-    border: 1px solid #84c5fe;
+    background: #0a0a0a;
+    border: 1px solid #c00000;
     border-radius: 5px;
     padding: 8px 15px;
     font-size: 17px;
@@ -274,21 +274,21 @@ section .option_list .option:last-child {
 }
 
 section .option_list .option:hover {
-    color: #530f0f;
-    background: #151a1f;
+    color: yellow;
+    background: #0a0a0a;
     border: 1px solid #b8daff;
 }
 
 section .option_list .option.correct {
     color: #155724;
-    background: #d4edda;
-    border: 1px solid #c3e6cb;
+    background: #007e1d;
+    border: 1px solid green;
 }
 
 section .option_list .option.incorrect {
     color: #721c24;
-    background: #f8d7da;
-    border: 1px solid #f5c6cb;
+    background: #fd3737;
+    border: 1px solid red;
 }
 
 section .option_list .option.disabled {
@@ -310,19 +310,19 @@ section .option_list .option .icon {
 .option_list .option .icon.tick {
     color: #23903c;
     border-color: #23903c;
-    background: #d4edda;
+    background: #ddffe5;
 }
 
 .option_list .option .icon.cross {
     color: #ff0019;
-    background: #f8d7da;
-    border-color: #a42834;
+    background: black;
+    border-color: black;
 }
 
 .choice-prefix {
     padding: 1rem 2rem;
-    background-color: #56a5eb;
-    color: white;
+    background-color: #721717;
+    color: yellow;
 }
 
 .choice-text {
@@ -336,7 +336,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid lightgrey;
+    border-top: 1px solid rgb(155, 0, 0);
 }
 
 footer .total_que span {
@@ -373,10 +373,10 @@ footer button {
     cursor: pointer;
     border: none;
     outline: none;
-    color: #fbff00;
+    color: yellow;
     border-radius: 5px;
-    background: #000000;
-    border: 1px solid #000000;
+    background: red;
+    border: 1px solid #0a0a0a;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -385,7 +385,7 @@ footer button {
 }
 
 footer button:hover {
-    background: green;
+    background: grey;
 }
 
 footer button.show {
@@ -398,7 +398,7 @@ footer button.show {
 
 /* Result Box */
 .result_box {
-    background: #fff;
+    background: #0a0a0a;
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
@@ -414,7 +414,7 @@ footer button.show {
 
 .result_box .icon {
     font-size: 100px;
-    color: #007bff;
+    color: yellow;
     margin-bottom: 10px;
 }
 
@@ -450,7 +450,7 @@ footer button.show {
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #007bff;
+    border: 1px solid #0a0a0a;
     transition: all 0.3s ease;
 }
 
@@ -482,25 +482,9 @@ footer button.show {
     padding: 0;
 }
 
-#loader {
-    margin-top: 4rem;
-    border: 1.6rem solid white;
-    border-radius: 50%;
-    border-top: 1.6rem solid #56a5eb;
-    width: 12rem;
-    height: 12rem;
-    animation: spin 2s linear infinite;
-}
 
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
 
-    100% {
-        transform: rotate(360deg);
-    }
-}
+
 
 .hidden {
     display: none;
