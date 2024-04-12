@@ -201,10 +201,10 @@ let questions = [
     type: "múltipla escolha",
     difficulty: "fácil",
     question: "Quais são algumas das obras mais famosas de Simone de Beauvoir?",
-    answer: "A Segunda Sexa e Memórias de uma Moça Bem-Comportada",
+    answer: "A Segunda Sexo e Memórias de uma Moça Bem-Comportada",
     options: [
       "Harry Potter e O Senhor dos Anéis",
-      "A Segunda Sexa e Memórias de uma Moça Bem-Comportada",
+      "A Segunda Sexo e Memórias de uma Moça Bem-Comportada",
       "Cem Anos de Solidão e Dom Quixote",
       "Mona Lisa e A Noite Estrelada"
     ],
